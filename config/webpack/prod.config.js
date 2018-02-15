@@ -11,7 +11,7 @@ module.exports = {
   entry: path.resolve(__dirname, '../../src/index.jsx'),
   output: {
     path: path.resolve(__dirname, '../../build/public'),
-    filename: 'bundle.js',
+    filename: 'bundle-[hash].js',
   },
   resolve: {
     extensions: ['.json', '.js', '.jsx'],
