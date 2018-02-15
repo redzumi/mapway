@@ -5,6 +5,13 @@ node_js:
 script:
   - npm run ci
 
+install:
+  - npm install
+
+cache:
+  directories:
+    - "node_modules"
+
 deploy:
   provider: surge
   project: ./build/public
