@@ -15,4 +15,5 @@ cache:
 deploy:
   provider: surge
   project: ./build/public
+  skip_cleanup: true
   domain: mapway.surge.sh
