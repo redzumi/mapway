@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YandexMapContainer renders correctly 1`] = `
+.c0 {
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+}
+
+<YandexMapContainer
+  mapCenter={
+    Array [
+      55.75120138894101,
+      37.62371955158138,
+    ]
+  }
+  onMapCenterUpdate={[MockFunction]}
+  onPlacemarkCoordinatesUpdate={[MockFunction]}
+  placemarks={Array []}
+>
+  <styled.div
+    innerRef={[Function]}
+  >
+    <div
+      className="c0"
+    />
+  </styled.div>
+</YandexMapContainer>
+`;

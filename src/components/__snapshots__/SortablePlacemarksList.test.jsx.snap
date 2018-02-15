@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortablePlacemarksList renders correctly 1`] = `
+.c3 {
+  cursor: pointer;
+}
+
+.c2 {
+  cursor: row-resize;
+}
+
+.c1 {
+  height: 60px;
+  width: auto;
+  padding: 0px 10px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: 'Montserrat',sans-serif;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.c0 {
+  background-color: #f3f3f3;
+  border: 1px solid #efefef;
+  width: 300px;
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 li {
+  box-shadow: none;
+}
+
+.c0:active {
+  cursor: row-resize;
+}
+
+<SortablePlacemarksList
+  onPlacemarkDelete={[MockFunction]}
+  onPlacemarksOrderUpdate={[MockFunction]}
+  placemarks={
+    Array [
+      Object {
+        "coordinates": Array [
+          55,
+          55,
+        ],
+        "id": "id1",
+        "name": "Name 1",
+      },
+      Object {
+        "coordinates": Array [
+          55,
+          55,
+        ],
+        "id": "id2",
+        "name": "Name 2",
+      },
+    ]
+  }
+>
+  <sortableList
+    axis="y"
+    distance={0}
+    getHelperDimensions={[Function]}
+    hideSortableGhost={true}
+    items={
+      Array [
+        Object {
+          "coordinates": Array [
+            55,
+            55,
+          ],
+          "id": "id1",
+          "name": "Name 1",
+        },
+        Object {
+          "coordinates": Array [
+            55,
+            55,
+          ],
+          "id": "id2",
+          "name": "Name 2",
+        },
+      ]
+    }
+    lockAxis="y"
+    lockOffset="50%"
+    lockToContainerEdges={true}
+    onItemDelete={[Function]}
+    onSortEnd={[Function]}
+    pressDelay={0}
+    pressThreshold={5}
+    shouldCancelStart={[Function]}
+    transitionDuration={300}
+    useDragHandle={true}
+    useWindowAsScrollContainer={false}
+  >
+    <Component
+      items={
+        Array [
+          Object {
+            "coordinates": Array [
+              55,
+              55,
+            ],
+            "id": "id1",
+            "name": "Name 1",
+          },
+          Object {
+            "coordinates": Array [
+              55,
+              55,
+            ],
+            "id": "id2",
+            "name": "Name 2",
+          },
+        ]
+      }
+      onItemDelete={[Function]}
+    >
+      <styled.ul>
+        <ul
+          className="c0"
+        >
+          <sortableElement
+            collection={0}
+            index={0}
+            key="id1"
+            onDelete={[Function]}
+            value="Name 1"
+          >
+            <Component
+              onDelete={[Function]}
+              value="Name 1"
+            >
+              <styled.li>
+                <li
+                  className="c1"
+                >
+                  <sortableHandle>
+                    <Component>
+                      <span>
+                        <styled.i
+                          className="material-icons"
+                        >
+                          <i
+                            className="material-icons c2"
+                          >
+                            reorder
+                          </i>
+                        </styled.i>
+                      </span>
+                    </Component>
+                  </sortableHandle>
+                  Name 1
+                  <styled.i
+                    className="material-icons delete-icon"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    role="button"
+                    tabIndex="0"
+                  >
+                    <i
+                      className="material-icons delete-icon c3"
+                      onClick={[Function]}
+                      onKeyPress={[Function]}
+                      role="button"
+                      tabIndex="0"
+                    >
+                      delete
+                    </i>
+                  </styled.i>
+                </li>
+              </styled.li>
+            </Component>
+          </sortableElement>
+          <sortableElement
+            collection={0}
+            index={1}
+            key="id2"
+            onDelete={[Function]}
+            value="Name 2"
+          >
+            <Component
+              onDelete={[Function]}
+              value="Name 2"
+            >
+              <styled.li>
+                <li
+                  className="c1"
+                >
+                  <sortableHandle>
+                    <Component>
+                      <span>
+                        <styled.i
+                          className="material-icons"
+                        >
+                          <i
+                            className="material-icons c2"
+                          >
+                            reorder
+                          </i>
+                        </styled.i>
+                      </span>
+                    </Component>
+                  </sortableHandle>
+                  Name 2
+                  <styled.i
+                    className="material-icons delete-icon"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    role="button"
+                    tabIndex="0"
+                  >
+                    <i
+                      className="material-icons delete-icon c3"
+                      onClick={[Function]}
+                      onKeyPress={[Function]}
+                      role="button"
+                      tabIndex="0"
+                    >
+                      delete
+                    </i>
+                  </styled.i>
+                </li>
+              </styled.li>
+            </Component>
+          </sortableElement>
+        </ul>
+      </styled.ul>
+    </Component>
+  </sortableList>
+</SortablePlacemarksList>
+`;
+
+exports[`SortablePlacemarksList styled components renders li correctly 1`] = `
+.c0 {
+  height: 60px;
+  width: auto;
+  padding: 0px 10px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: 'Montserrat',sans-serif;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+<li
+  className="c0"
+/>
+`;
+
+exports[`SortablePlacemarksList styled components renders ul correctly 1`] = `
+.c0 {
+  background-color: #f3f3f3;
+  border: 1px solid #efefef;
+  width: 300px;
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 li {
+  box-shadow: none;
+}
+
+.c0:active {
+  cursor: row-resize;
+}
+
+<ul
+  className="c0"
+/>
+`;

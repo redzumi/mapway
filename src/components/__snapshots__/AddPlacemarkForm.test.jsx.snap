@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddPlacemarkForm renders correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <styled.input
+    name="name"
+    onChange={[Function]}
+    placeholder="Новая точка маршрута"
+    required={true}
+    value=""
+  />
+</form>
+`;
+
+exports[`AddPlacemarkForm styled components renders input correctly 1`] = `
+.c0 {
+  background-color: #fff;
+  width: 300px;
+  font-family: 'Montserrat',sans-serif;
+  padding-left: 10px;
+  height: 60px;
+  margin: 0px;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid #efefef;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  margin-bottom: 20px;
+}
+
+.c0:focus {
+  border: 1px solid #a7a7a7;
+}
+
+<input
+  className="c0"
+/>
+`;

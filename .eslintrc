@@ -1,0 +1,7 @@
+{
+    "extends": ["codebox", "plugin:jest/recommended"],
+    "rules": {
+      "linebreak-style": 0
+    },
+    "plugins": ["jest"]
+}
